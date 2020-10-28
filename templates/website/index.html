@@ -1,0 +1,600 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Michael Amone | Home : Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Creative Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="{% static 'css/bootstrap.css'%}" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="{% static 'css/style.css'%}" type="text/css" media="all" />
+<!--// css -->
+<link rel="stylesheet" href="{% static 'css/owl.carousel.css'%}" type="text/css" media="all">
+<link href="{% static 'css/owl.theme.css'%}" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{% static 'css/cm-overlay.css'%}" />
+<!-- font-awesome icons -->
+<link href="{% static 'css/font-awesome.css'%}" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="{% static 'js/jquery-1.11.1.min.js'%}"></script>
+<script src="{% static 'js/bootstrap.js'%}"></script>
+<!-- menu -->
+<link rel="stylesheet" href="{% static 'css/main.css'%}">
+<script type="text/javascript" src="{% static 'js/main.js'%}"></script>
+<!-- //menu --> 
+<script>
+$(document).ready(function() { 
+	$("#owl-demo").owlCarousel({
+ 
+		autoPlay: 3000, //Set AutoPlay to 3 seconds
+		autoPlay:true,
+		items : 3,
+		itemsDesktop : [640,5],
+		itemsDesktopSmall : [414,4]
+ 
+	});
+	
+}); 
+</script>
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner" id="home">
+		<!-- menu -->
+			<div id="toggle_m_nav">
+			  <div id="m_nav_menu" class="m_nav">
+				<div class="m_nav_ham" id="m_ham_1"></div>
+				<div class="m_nav_ham" id="m_ham_2"></div>
+				<div class="m_nav_ham" id="m_ham_3"></div>
+			  </div>
+			</div>
+
+			<div id="m_nav_container" class="m_nav">
+			  <ul id="m_nav_list" class="m_nav">
+				<li class="m_nav_item" id="m_nav_item_1"> <a href="#home">Home</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">About</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_3"> <a href="#statistics">Statistics</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_4"> <a href="#experience">Experience</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_5"> <a href="#projects">Projects</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_6"> <a href="#contact">Contact</a> </li>
+			  </ul>
+			</div>
+		<!-- menu -->
+		<div class="container">
+			<div class="agile-logo">
+				<h1><a href="index.html">My<span>Resume</span></a></h1>
+			</div>
+			<div class="w3l-banner-grids">
+				<div class="col-md-8 w3ls-banner-right">
+					<div class="banner-right-img">
+						<img src="{% static 'images/1.jpg'%}" alt="" />
+					</div>
+					<div class="banner-right-info">
+						<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque tellus dignissim dolor dignissim, sit amet convallis nisi dignissim.</h2>
+						<p>Donec dolor felis, consectetur eget massa non, mattis euismod est. Nam augue neque, hendrerit nec scelerisque non, ultrices at ligula. Praesent posuere, turpis eget lobortis elementum, ex ante ultricies ligula, sit amet varius lacus dui in magna. Aliquam erat volutpat. Nulla condimentum, enim vitae congue ultrices, nibh erat efficitur sem, vel iaculis lectus eros in turpis. Aliquam venenatis cursus suscipit.</p>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="w3-button">
+						<div class="w3-button-info m_nav_item">
+							<a class="hvr-sweep-to-bottom" href="#contact">Contact Me</a>
+						</div>
+					</div>
+					<div class="social-grids">
+						<div class="social-info">
+							<h4>Follow : </h4>
+						</div>
+						<div class="agileinfo-social-grids">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								<li><a href="#"><i class="fa fa-vk"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-banner-left">
+					<div class="w3ls-banner-left-info">
+						<h4>Job Title</h4>
+						<p>Web and Applications Developer</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>Name</h4>
+						<p>Michael Amone Emmanuel</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>Sex</h4>
+						<p>Male</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>Address</h4>
+						<p>Kampala Uganda,Kireka 56777.</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>Email Address</h4>
+						<p><a href="mailto:mikeamone@gmail.com">mikeamone@gmail.com.com</a></p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="wthree-about-grids">
+				<div class="col-md-6 wthree-about-left">
+					<h3>About Me</h3>
+					<h4>My name is Michael Amone Emmanuel. Also known as (Carter). A web and Applications Developer.</h4>
+					<p>i am a male Ugandan National Aged 25 years who completed with bachelors degree in Software Engineerin from makerere University (MUK). with me, i also posses a Diploma in computer science from Makerere university Business school (MUBS). where i attained Hons. Dip Computer science. <span>i am a Web and Applications developer with both front and back-end knowledge in different programming langueages with which i have used to accomplish different projects and application for different clients i have worked withIn.</span>My skillset in frontset in front-end programming encompases HTML, CSS5, Sass and JavaScript while python (Django), PHP on the backend. i also posses knowledge with Database management through DBSMS such as MySQL, MangoDB and Postgres.All this is as illustrated varring from strengths. </p>
+				</div >
+				<div class="col-md-6 wthree-about-right">
+					<h3>Skills</h3>
+					<div class="skills-bar">
+						<section class='bar'>
+						  <section class='wrap'>
+							<div class='wrap_right'>
+							  <div class='bar_group'>
+								<div class='bar_group__bar thin' label='JavaScript' show_values='true' tooltip='true' value='343'></div>
+								<div class='bar_group__bar thin' label='AJAX' show_values='true' tooltip='true' value='235'></div>
+								<div class='bar_group__bar thin' label='PHP' show_values='true' tooltip='true' value='675'></div>
+								<div class='bar_group__bar thin' label='SASS' show_values='true' tooltip='true' value='456'></div>
+								<div class='bar_group__bar thin' label='HTML' show_values='true' tooltip='true' value='245'></div>
+							  </div>
+							</div>
+							<div class='clear'></div>
+						  </section>
+						</section>
+					</div>
+				</div >
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- statistics -->
+	<div class="jarallax statistics" id="statistics">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading">
+				<h3>My Statistics</h3>
+			</div>
+			<div class="agile-statistics-grids">
+				<div class="col-sm-4 agile-statistics-grid">
+					<h4>1024</h4>
+					<i class="fa fa-desktop" aria-hidden="true"></i>
+					<p>Projects Complete</p>
+				</div>
+				<div class="col-sm-4 agile-statistics-grid statistics-grid2">
+					<h4>27</h4>
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<p>Clients</p>
+				</div>
+				<div class="col-sm-4 agile-statistics-grid">
+					<h4>55</h4>
+					<i class="fa fa-trophy" aria-hidden="true"></i>
+					<p>Awards</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<script src="{% static 'js/jarallax.js'%}"></script>
+			<script src="{% static 'js/SmoothScroll.min.js'%}"></script>
+			<script type="text/javascript">
+				/* init Jarallax */
+				$('.jarallax').jarallax({
+					speed: 0.5,
+					imgWidth: 1366,
+					imgHeight: 768
+				})
+			</script>
+		</div>
+	</div>
+	<!-- //statistics -->
+	<!-- experience -->
+	<div class="experience" id="experience">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading experience-heading">
+				<h3>Work Experience</h3>
+			</div>
+			<div class="w3-agile-experience-grids">
+				<div class="experience-top-grids">
+					<div class="col-md-6 experience-grid">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fa fa-folder-open" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>DATABASE ADMINISTRATOR</h5>
+							<p>Ensured that data is available, protected from loss and corruption, and easily accessible as needed. Also collaborated on the initial installation and configuration of a new Oracle, SQL Server etc databases.</p>
+						</div>
+					</div>
+					<div class="col-md-6 experience-grid experience-grid1">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fa fa-bell" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>DATA ANALYST</h5>
+							<p>Interpreted data and turned it into information which can offer ways to improve a business, thus affecting business decisions. Gathered information from various sources and interpret patterns and trends.</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="experience-top-grids">
+					<div class="col-md-6 experience-grid experience-grid2">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fa fa-comments" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>WEB DEVELOPER</h5>
+							<p>Responsible for the coding, design and layout of a website according to client's specifications. As the role takes into consideration user experience and function, a certain level of both graphic design and computer programming is necessary..</p>
+						</div>
+					</div>
+					<div class="col-md-6 experience-grid experience-grid3">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fa fa-asterisk" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>WEB AND SYSTEMS ADMIN.</h5>
+							<p>i identifed any problems in the system, anticipate potential issues and repair systems and software when necessary. Other duties and responsibilities included: Setting up new users and giving them access to the intranet. Managing and maintaining the file servers..</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //experience -->
+	<!-- feedback -->
+	<div class="jarallax feedback">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading">
+				<h3>Clients Feedback</h3>
+			</div>
+			<div class="agileits-feedback-grids">
+				<div id="owl-demo" class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="feedback-info">
+							<div class="feedback-top">
+								<p> i am thankful to Mike for website that he designed for my business. this helped me as a new means of advertising to my clients for my available products</p>
+							</div>
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="{% static 'images/f1.jpg'%}" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Peter Omara</h5>
+									<p>Manager, JK Fashions</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="feedback-info">
+							<div class="feedback-top">
+								<p> The websites mike designs are astoning. please check ours out at http//www.engsol.co.ug. i am soo greatful. keep up the spirit Michael </p>
+							</div>
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="{% static 'images/f2.jpg'%}" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Mary Jane</h5>
+									<p>Director, Engsol Uganda</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="feedback-info">
+							<div class="feedback-top">
+								<p> partnering with mike is guaranteed sucesss. i love his passion when it comes to code. so many projects completed with him </p>
+							</div>
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="{% static 'images/f3.jpg'%}" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Steven Kinyera</h5>
+									<p>Programmer, Andela</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="feedback-info">
+							<div class="feedback-top">
+								<p> Amone is designing an ecommerce website for my farm to help with market base for my farm produce. so far so good.!. </p>
+							</div>
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="{% static 'images/f4.jpg'%}" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Peter kagozi</h5>
+									<p>Farmer, kotido</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				/* init Jarallax */
+				$('.jarallax').jarallax({
+					speed: 0.5,
+					imgWidth: 1366,
+					imgHeight: 768
+				})
+			</script>
+
+		</div>
+	</div>
+	<!-- //feedback -->
+	<!-- projects -->
+	<div class="projects" id="projects">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading experience-heading">
+				<h3>My Projects</h3>
+			</div>
+		</div>
+		<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">All</a></li>
+						<li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">Apps</a></li>
+						<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">Widgets</a></li>
+						<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">Templates</a></li>
+						<li role="presentation"><a href="#school" role="tab" id="school-tab" data-toggle="tab" aria-controls="school">Other</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p1.jpg'%}">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p1.jpg'%}" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p2.jpg'%}">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p2.jpg'%}" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p3.jpg'%}">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p3.jpg'%}" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p4.jpg'%}">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg'%}" alt=" " class="img-responsive" />
+										</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p5.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p5.jpg'%}" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p6.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p6.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p7.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p7.jpg'%}" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p8.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p8.jpg'%}" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p6.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p6.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p9.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p9.jpg'%}" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p1.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p1.jpg'%}" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p5.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p5.jpg'%}" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p7.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p7.jpg'%}" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p3.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p3.jpg'%}" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p2.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p2.jpg'%}" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p4.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p4.jpg'%}" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p10.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p10.jpg'%}" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="school" aria-labelledby="school-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="{% static 'images/p8.jpg'%}">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="{% static 'images/p8.jpg'%}" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+		</div>
+		<script src="{% static 'js/jquery.tools.min.js"></script>
+			<script src="{% static 'js/jquery.mobile.custom.min.js'%}"></script>
+			<script src="{% static 'js/jquery.cm-overlay.js'%}"></script>
+			<script>
+				$(document).ready(function(){
+					$('.cm-overlay').cmOverlay();
+				});
+			</script>
+
+	</div>
+	<!-- //projects -->
+	<!-- map -->
+	<div class="map-grid">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100949.24429313939!2d-122.44206553967531!3d37.75102885910819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472190196783" class="map" style="border:0" allowfullscreen=""></iframe>
+	</div>
+	<!-- //map -->
+	<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading experience-heading">
+				<h3>Contact Me</h3>
+			</div>
+			<div class="contact-form">
+				<form action="#" method="post">
+					<div class="fields-grid">
+						<div class="styled-input agile-styled-input-top">
+							<input type="text" name="Full Name" required="">
+							<label>Full Name</label>
+							<span></span>
+						</div>
+						<div class="styled-input agile-styled-input-top">
+							<input type="text" name="Phone" required=""> 
+							<label>Phone</label>
+							<span></span>
+						</div>
+						<div class="styled-input">
+							<input type="text" name="Email" required=""> 
+							<label>Email</label>
+							<span></span>
+						</div> 
+						<div class="styled-input">
+							<input type="text" name="Subject" required="">
+							<label>Subject</label>
+							<span></span>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="styled-input textarea-grid">
+						<textarea name="Message" required=""></textarea>
+						<label>Message</label>
+						<span></span>
+					</div>	 
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- copyright -->
+	<div class="agileits-w3layouts-footer">
+		<div class="container">
+			<p>© 2020 Michael Resume. All rights reserved | Design by <a href="http://pythonanywhere.com">Michael Carter</a></p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<script src="{% static 'js/bars.js'%}"></script>
+	<script src="{% static 'js/owl.carousel.js'%}"></script> 
+</body>	
+</html>
